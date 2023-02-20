@@ -36,6 +36,11 @@
         public string MatricNo { get; set; }
 
         /// <summary>
+        /// The student's access token
+        /// </summary>
+        public int AccessCode { get; set; }
+
+        /// <summary>
         /// The student's registered entity relational model
         /// </summary>
         public List<StudentCoursesDataModel> RegisteredCourses { get; set; }

@@ -1,15 +1,10 @@
 ﻿namespace Slat.Core
 {
     /// <summary>
-    /// The api model to create a student
+    /// Student attendance record api model
     /// </summary>
-    public class CreateStudentApiModel
+    public class StudentAttendanceRecordApiModel
     {
-        /// <summary>
-        /// The email address of the student
-        /// </summary>
-        public string Email { get; set; }
-
         /// <summary>
         /// The first name of the student
         /// </summary>
@@ -26,8 +21,13 @@
         public string MatricNo { get; set; }
 
         /// <summary>
-        /// The photo of the student
+        /// The email address of the student
         /// </summary>
-        public string Photo { get; set; }
+        public string Email { get; set; }
+
+        /// <summary>
+        /// The total attendance of the student
+        /// </summary>
+        public int AttendanceCount { get; set; }
     }
 }

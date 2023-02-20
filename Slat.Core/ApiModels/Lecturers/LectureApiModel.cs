@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-
-namespace Slat.Core
+﻿namespace Slat.Core
 {
     /// <summary>
     /// The lecture api model
